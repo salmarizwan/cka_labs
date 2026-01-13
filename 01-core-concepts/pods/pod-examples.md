@@ -4,9 +4,10 @@ This document contains common **Pod-related scenarios** frequently encountered i
 
 ---
 
-## 1️⃣ Single-Container Pod
+## 1️⃣ Single-Container Pod (Create → Verify → Debug → Delete)
 
-### Create a basic nginx pod
+### Create a basic nginx pod  
+ 
 ```bash
 kubectl run nginx --image=nginx --restart=Never
 
