@@ -29,8 +29,9 @@ This repository is designed to:
 - **Virtualization**: VMware
 - **Cluster Type**: kubeadm-based
 - **Nodes**:
-  - 1 Control Plane
-  - 2 Worker Nodes
+  - 1 Load Balancer
+  - 3 Control Plane
+  - 3 Worker Nodes
 - **OS**: Linux
 - **Container Runtime**: containerd
 - **CNI**: (documented in environment setup)
@@ -61,14 +62,6 @@ Each lab includes:
 - Expected output
 - Common mistakes & fixes
 - Exam-focused tips
-
----
-
-## 🎯 Certification Roadmap
-
-- ✅ CKA (this repository)
-- 🔜 CKS (security hardening & runtime defense)
-- 🔜 OSCP (offensive + defensive container security)
 
 ---
 
