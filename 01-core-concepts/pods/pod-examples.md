@@ -9,3 +9,15 @@ This document contains common **Pod-related scenarios** frequently encountered i
 ### Create a basic nginx pod
 ```bash
 kubectl run nginx --image=nginx --restart=Never
+
+## Verify
+kubectl get <resource>
+kubectl describe <resource>
+
+## Debug
+kubectl logs <resource>
+kubectl get events
+
+## Cleanup
+kubectl delete <resource>
+
