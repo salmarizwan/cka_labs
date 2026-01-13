@@ -41,4 +41,40 @@ This repository is designed to:
 ## 📂 Repository Structure
 
 Each folder maps directly to **CKA exam domains**:
+- 00-environment-setup/ → Cluster & lab design
+- 01-core-concepts/ → Pods, namespaces, labels
+- 02-workloads-scheduling/ → Deployments, jobs, affinity
+- 03-services-networking/ → Services, DNS, ingress
+- 04-storage/ → PV, PVC, StatefulSets
+- 05-configuration/ → ConfigMaps, Secrets
+- 06-observability/ → Logs, probes, monitoring
+- 07-troubleshooting/ → Exam-style failure scenarios
+- 08-security-basics/ → RBAC, ServiceAccounts
 
+---
+
+## 🧪 Lab Format
+
+Each lab includes:
+- YAML manifests
+- CLI commands used
+- Expected output
+- Common mistakes & fixes
+- Exam-focused tips
+
+---
+
+## 🎯 Certification Roadmap
+
+- ✅ CKA (this repository)
+- 🔜 CKS (security hardening & runtime defense)
+- 🔜 OSCP (offensive + defensive container security)
+
+---
+
+## ⚠️ Note
+
+This repository is **not copied from tutorials**.
+All configurations, failures, and fixes are tested manually.
+
+---
