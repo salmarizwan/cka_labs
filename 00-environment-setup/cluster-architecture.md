@@ -88,3 +88,5 @@ This lab documents a **High Availability (HA) Kubernetes cluster** with 3 master
 - Enable **private CNI IP range** to simulate segmented networks
 - Deploy **network policies** to test traffic filtering
 - Test **etcd snapshot and restore** scenarios
+
+![HA Kubernetes Cluster Diagram](../assets/diagrams/ha-cluster-3-master-3-worker.png)
